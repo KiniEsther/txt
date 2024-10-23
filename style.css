@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vh;
+    background-color: #ff6f00; /* Deep orange background */
+    color: #fff; /* Change text color to white for contrast */
+    font-family: Arial, sans-serif; /* Add a font for better readability */
+  }
+  
+  section {
+    padding-top: 15px;
+  }
+  
+  section img {
+    width: 400px;
+    height: 230px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 80px;
+  }
+  
+  #subscriberCount {
+    text-align: center;
+    color: #fff; /* Ensure subscriber count text is visible */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+  }
+  
+  section h1 {
+    text-align: center;
+    font-size: 26px;
+    margin-top: -13px;
+    color: #fff; /* Change header color to white for contrast */
+  }
+  
+  section .box {
+    width: 650px;
+    margin: -11px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section .box button {
+    width: 100%;
+    margin: 10px 0;
+    background: #fff; /* White background for buttons */
+    color: #000; /* Black text for buttons */
+    border: 4px solid #000; /* Black border */
+    outline: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  section .box button:hover {
+    border-radius: 100px;
+    background-color: #fa6400; /* Change background on hover */
+    color: #fff; /* Change text color on hover */
+    font-weight: bold;
+    border: 4px solid #fa6400; /* Match border color to hover background */
+  }
+  
+  @media screen and (max-width: 740px) {
+    section .box {
+      width: calc(100% - 40px);
+      margin: 15px 20px;
+    }
+  }
+  
